@@ -11,3 +11,12 @@ first = float(input("first:"))
 second = float(input("second: "))
 sum = first + second
 print("sum", str(sum))
+
+# STRINGS
+learn = "Python basics."
+
+print(learn.capitalize())
+print(learn.upper())
+print(learn.replace('.', '!'))
+print('Python' in learn) #true
+
