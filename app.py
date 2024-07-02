@@ -48,3 +48,8 @@ while i <= 10:
     print(i * '*')
     i = i + 1
 print("done")
+
+# LISTS
+letters = ["X", "Y", "Z"]
+letters[0] = "A"
+print(letters[0:3])
