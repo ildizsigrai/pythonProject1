@@ -31,3 +31,13 @@ elif temperature > 10:
 elif temperature < 10:
     print("It's a cold day")
 print("done")
+
+# practice -- unit conversion
+weight = float(input("Weight: "))
+unit = input("(k)g or (l)bs: ")
+if unit.upper() == "K":
+    converted = weight / 0.45
+    print("Weight in Lbs: " + str(converted))
+else:
+    converted = weight * 0.45
+    print("Weight in Kgs: " + str(converted))
