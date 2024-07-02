@@ -20,3 +20,14 @@ print(learn.upper())
 print(learn.replace('.', '!'))
 print('Python' in learn) #true
 
+# IF STATEMENTS
+temperature = 8
+
+if temperature > 20:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif temperature > 10:
+    print("It is a nice day")
+elif temperature < 10:
+    print("It's a cold day")
+print("done")
